@@ -24,5 +24,5 @@ else
 {
 printf("%i is positive\n", n);
 }
-return (0)i;
+return (0);
 }
