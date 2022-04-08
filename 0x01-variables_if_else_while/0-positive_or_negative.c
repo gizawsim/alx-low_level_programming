@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-=======
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
@@ -28,4 +25,3 @@ printf("%i is positive\n", n);
 }
 return (0);
 }
->>>>>>> 139cb375df6394084656f315fb5f96c40a86a1ad
