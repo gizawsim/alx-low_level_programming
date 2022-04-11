@@ -2,7 +2,7 @@
 /**
  * main - Prints all possible combinations of three differnet digits, in ascending order, separated by a comma followed bya space.
  *
- * Return: Always 0;
+ * Return: Always 0 (success)
  */
 int main(void)
 {
@@ -27,4 +27,4 @@ putchar(' ');
 }
 putchar('\n');
 return (0);
-{
+}
