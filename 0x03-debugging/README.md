@@ -1,1 +1,1 @@
-My Readme for the 0x03-debugging
+0x03. C - Debugging repo
