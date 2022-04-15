@@ -3,7 +3,7 @@
 /**
  * print_numbers - Prints the number zero to nine
  *
- * Return: Always 0 (success)
+ * Return: Always 0 (Success)
  */
 
 void print_numbers(void)
@@ -13,7 +13,7 @@ void print_numbers(void)
 
 	i = 0;
 
-	for (i = 0; i < 10; I++)
+	for (i = 0; i < 10; i++)
 
 		_putchar(i + '0');
 
