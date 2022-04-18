@@ -1,4 +1,4 @@
-nclude "main.h"
+include "main.h"
 /**
  * puts2 - prints every character of a string
  * @str: A pointer to an int that will be chnaged
