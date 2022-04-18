@@ -5,7 +5,7 @@
 /** 
  * my task
  */
-int min(void)
+int main(void)
 {
 	int num;
 
