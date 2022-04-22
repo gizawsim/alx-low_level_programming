@@ -1,6 +1,4 @@
-#includer
-"mainr
-ZZZXXiZZXX.h"                               
+#include "main.h"                               
 
 #include <stdio.h>                              
 
@@ -8,15 +6,15 @@ ZZZXXiZZXX.h"
 
 /**                                             
  *
- *  * main -checks the code for ALX School Students
+ * main -checks the code for ALX School Students
  *
- *  .                                               
+ *                                                
  *
- *   *                                              
+ *                                              
  *
- *    * Return: Always 0.                            
+ * Return: Always 0.                            
  *
- *     */                                             
+ */                                             
 
                                                 
 
