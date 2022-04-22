@@ -1,4 +1,6 @@
-#include "main.h"                               
+#includer
+"mainr
+ZZZXXiZZXX.h"                               
 
 #include <stdio.h>                              
 
