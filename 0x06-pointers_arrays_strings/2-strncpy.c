@@ -2,38 +2,36 @@
 
 /**
  *
- *  *_strncpy - copy src into dest.
+ *  * _strncpy - function that copies a string
  *
- *   *@dest: first string.
+ *   * @dest: string to copy to
  *
- *    *@src: second string.
+ *    * @src: string to be copied from
  *
- *     *@n: the number of bytes to use from src.
+ *     * @n: integer that determines number of by=tes to be copied
  *
- *      *Return: string.
+ *      * Return: dest
  *
  *       */
 
 char *_strncpy(char *dest, char *src, int n)
 
 {
-int i = 0, k = 0;
-while (n > k)
 
-{						if (src[k] == '\0')											{
-						for (; k < n; k++)
-						{												dest[i] = '\0';
-						i++;
-						}
-						}
-						else						{
+		int x;
 
-						dest[i] = src[k];
 
-						k++;						i++;
-						}
-						}
 
-return (dest);
+			for (x = 0; x < n && src[x] != '\0'; x++)
+
+						dest[x] = src[x];
+
+				for (; n > x; x++)
+
+							dest[x] = '\0';
+
+
+
+					return (dest);
 
 }
