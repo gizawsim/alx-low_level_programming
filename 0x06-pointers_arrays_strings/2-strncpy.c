@@ -2,36 +2,33 @@
 
 /**
  *
- *  * _strncpy - function that copies a string
+ * _strncpy - function that copies a string
  *
- *   * @dest: string to copy to
+ * @dest: string to copy to
  *
- *    * @src: string to be copied from
+ * @src: string to be copied from
  *
- *     * @n: integer that determines number of by=tes to be copied
+ * @n: integer that determines number of by=tes to be copied
  *
- *      * Return: dest
+ * Return: dest
  *
- *       */
+ */
 
 char *_strncpy(char *dest, char *src, int n)
 
 {
 
-		int x;
+int x;
 
 
 
-			for (x = 0; x < n && src[x] != '\0'; x++)
+for (x = 0; x < n && src[x] != '\0'; x++)
 
 						dest[x] = src[x];
 
-				for (; n > x; x++)
+for (; n > x; x++)
+						dest[x] = '\0';
 
-							dest[x] = '\0';
-
-
-
-					return (dest);
+return (dest);
 
 }
