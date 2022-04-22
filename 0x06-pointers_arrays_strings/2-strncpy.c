@@ -1,34 +1,48 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  *
- * _strncpy - function that copies a string
+ * main - check the code
  *
- * @dest: string to copy to
  *
- * @src: string to be copied from
  *
- * @n: integer that determines number of by=tes to be copied
- *
- * Return: dest
+ * Return: Always 0.
  *
  */
 
-char *_strncpy(char *dest, char *src, int n)
+int main(void)
 
 {
+  char s1[98];
+  char *ptr;
+  int i;
+  for (i = 0; i < 98 - 1; i++)
 
-int x;
+{
+  s1[i] = '*';
+}
+  s1[i] = '\0';
+  printf("%s\n", s1);
 
+  ptr = _strncpy(s1, "First, solve the problem. Then, write the code\n", 5);
+  printf("%s\n", s1);
 
-
-for (x = 0; x < n && src[x] != '\0'; x++)
-
-						dest[x] = src[x];
-
-for (; n > x; x++)
-						dest[x] = '\0';
-
-return (dest);
+printf("%s\n", ptr);
+ptr = _strncpy(s1, "First, solve the problem. Then, write the code\n", 90);
+printf("%s", s1);
+Printf("%s", ptr);
+for (i = 0; i < 98; i++)
+{
+if (i % 10)		
+{
+printf(" ");												
+}
+if (!(i % 10) && i)
+     printf("\n");												
+  }
+    printf("0x%02x", s1[i]);
+    printf("\n");
+    return (0);
 
 }
