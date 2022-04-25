@@ -1,20 +1,18 @@
 #include "main.h"
 
-
-
 /**
  *
- *  * _memset - fills string with constant char b upto n bytes
+ * _memset - fills string with constant char b upto n bytes
  *
- *   * @s: input pointer to string
+ * @s: input pointer to string
  *
- *    * @b: constant char
+ * @b: constant char
  *
- *     * @n: number of bytes
+ * @n: number of bytes
  *
- *      * Return: pointer to s string
+ * Return: pointer to s string
  *
- *       */
+ */
 
 
 
